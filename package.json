@@ -1,0 +1,27 @@
+{
+  "name": "xcode-inspired",
+  "displayName": "Xcode Inspired",
+  "description": "Xcode-inspired light and dark Swift themes for VS Code.",
+  "version": "1.1.0",
+  "publisher": "local-theme",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xcode Inspired Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/xcode-inspired-dark-color-theme.json"
+      },
+      {
+        "label": "Xcode Inspired Light",
+        "uiTheme": "vs",
+        "path": "./themes/xcode-inspired-light-color-theme.json"
+      }
+    ]
+  }
+}

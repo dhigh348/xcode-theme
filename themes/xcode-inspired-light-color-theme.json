@@ -1,0 +1,181 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Xcode Inspired Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#292929",
+    "editor.lineHighlightBackground": "#EAF3FF",
+    "editor.selectionBackground": "#C9E2FF",
+    "editor.inactiveSelectionBackground": "#E2EDFA",
+    "editorCursor.foreground": "#007AFF",
+    "editorLineNumber.foreground": "#B2B2B8",
+    "editorLineNumber.activeForeground": "#6A6F79",
+    "editorIndentGuide.background1": "#E8E8ED",
+    "editorIndentGuide.activeBackground1": "#BCC4D1",
+    "editorWhitespace.foreground": "#D9DDE4",
+    "editorGutter.background": "#FFFFFF",
+    "editorOverviewRuler.border": "#E6E6EA",
+    "sideBar.background": "#F6F7F9",
+    "sideBar.foreground": "#30343A",
+    "sideBarTitle.foreground": "#262A31",
+    "activityBar.background": "#F0F1F4",
+    "activityBar.foreground": "#50596A",
+    "activityBar.inactiveForeground": "#A3A8B2",
+    "titleBar.activeBackground": "#F5F5F7",
+    "titleBar.activeForeground": "#30343A",
+    "statusBar.background": "#F0F1F4",
+    "statusBar.foreground": "#4A5260",
+    "panel.background": "#FFFFFF",
+    "terminal.background": "#FFFFFF",
+    "terminal.foreground": "#292929",
+    "terminal.ansiMagenta": "#C52BAC",
+    "terminal.ansiBlue": "#007BC4",
+    "terminal.ansiGreen": "#257B42",
+    "terminal.ansiYellow": "#A46C00",
+    "terminal.ansiRed": "#E42B19",
+    "input.background": "#FFFFFF",
+    "dropdown.background": "#FFFFFF",
+    "list.activeSelectionBackground": "#DCEBFF",
+    "list.hoverBackground": "#EDF4FC",
+    "focusBorder": "#007AFF"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#758596"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "keyword.control",
+        "keyword.other",
+        "keyword.declaration"
+      ],
+      "settings": {
+        "foreground": "#C52BA7"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "entity.name.struct",
+        "support.type",
+        "support.class",
+        "storage.type.swift",
+        "entity.name.type.swift"
+      ],
+      "settings": {
+        "foreground": "#5927CF"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.parameter",
+        "identifier"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#7134C5"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "string.quoted",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#E52B1B"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean",
+        "constant.language.nil",
+        "constant.language.null"
+      ],
+      "settings": {
+        "foreground": "#2724E6"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "variable.language",
+        "support.variable",
+        "meta.annotation",
+        "storage.type.annotation"
+      ],
+      "settings": {
+        "foreground": "#8845D4"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator",
+        "punctuation",
+        "meta.brace"
+      ],
+      "settings": {
+        "foreground": "#303030"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape",
+        "string.interpolated"
+      ],
+      "settings": {
+        "foreground": "#28818D"
+      }
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "type": "#5927CF",
+    "class": "#5927CF",
+    "struct": "#5927CF",
+    "enum": "#5927CF",
+    "interface": "#5927CF",
+    "typeParameter": "#5927CF",
+    "keyword": "#C52BA7",
+    "number": "#2724E6",
+    "string": "#E52B1B",
+    "comment": "#758596",
+    "variable": "#000000",
+    "parameter": "#000000",
+    "property": "#007BB9",
+    "function": "#000000",
+    "method": "#000000",
+    "decorator": "#8845D4"
+  }
+}
